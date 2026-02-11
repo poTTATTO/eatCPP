@@ -1,0 +1,41 @@
+# === 빌드 결과물 (컴파일된 파일들) ===
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+
+# === IDE 및 툴 관련 설정 ===
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.pdb
+
+# VS Code
+.vscode/
+# (단, .vscode/launch.json 등 설정을 공유하고 싶다면 이 줄을 빼도 됩니다 ㅋ)
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# === 빌드 시스템 (CMake 등) ===
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# === 운영체제 임시 파일 ===
+.DS_Store
+Thumbs.db
