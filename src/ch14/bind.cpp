@@ -29,4 +29,9 @@ int main()
     do_somthig_with_s1(s2);
 
     std::cout<<"After :: "<<s1.data<<std::endl;
+    int r1=4;
+    int r2=3;
+
+    auto rw1 = std::ref(r1);
+    
 }
