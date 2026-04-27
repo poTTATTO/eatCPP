@@ -6,11 +6,12 @@
 
 void worker(int& result, std::mutex& m)
 {
+    m.lock();
     for(int i=0; i<1000000; ++i)
     {
-        m.lock();
         result += 1;
         // m.unlock();
+        std::cout<<result<<"\n";
     }
 }
 
